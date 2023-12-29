@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ecfaeb;
+    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+.heading{ 
+    margin: 0;
+    color: white;
+   background-color: #f5ba13;
+   padding: 7px 63px;
+    font-family: monospace;
+    font-size: 40px;
+}
+h1, p{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    /* position: static;
+    top: 95vh;
+    right: 50vw; */
+    
+     color: rgb(125, 123, 123);
+    font-weight: 500;
+    text-align: center;
+    font-family: sans-serif;
+}
+.form{
+    width: 35em;
+    margin: 2rem auto;
+    padding: 1rem 0px 1rem;
+    text-align: left;
+    background-color: white;
+    box-shadow: 1px 5px 9px 1px rgb(133, 132, 131);
+    border-radius: 9px;
+    
+}
+.form input{
+    text-align: left;
+    outline: none;
+    border: 0;
+    width: 25em;
+    background-color: white;
+    font-size: 18px;
+    padding: 9px 18px;
+    border-radius: 5px;
+    margin: 0px 1rem;
+}
+textarea{
+    text-align: left;
+        outline: none;
+        width: 25em;
+        border: none;
+        background-color: white;
+        font-size: 18px;
+        padding: 9px 18px;
+        margin: 0px 1rem;
+        resize: none;
+}
+
+.form .add-button{
+   background-color: #f7b500;
+   position: relative;
+   top: 2.5rem;
+   cursor: pointer;
+    box-shadow: 1px 5px 7px rgb(94, 2, 140);
+    transition: all .3s;
+} 
+.add-button:hover, .add-icon:hover{
+    background-color: rgb(246, 248, 208); 
+   outline: 1px solid #da00f7;
+    color: black;
+}
+.container {
+    padding: 2em 15px;
+    color: black;
+    font-family: Sans-Serif;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.note--box{
+    margin: 0% 15px 20px;
+    background-color: #ffd59b;
+    background-color: rgb(197, 197, 197);
+    width: 20em;
+    padding: 0 0 20px 0;
+     border-radius: 7px;
+     box-shadow: 0px 3px 5px rgb(51, 38, 51);
+}
+.note--title {
+    background-color: #ffd59b;
+    background-color: rgb(197, 197, 197);
+    color: rgb(59, 38, 38);
+    margin: 0px 31px 20px;
+    padding: 15px 1px 1px;
+    border-radius: 6px;
+    border-bottom: 3px solid rgb(79, 79, 64);
+}
+.note--content {
+    background-color: #ffd59b;
+    background-color: rgb(197, 197, 197);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 13px 31px 10px;
+    /* padding: 0 0 20px 0; */
+    font-size: 1.1em;
+    color: rgb(52, 51, 51);
+
+}
+.delete--button{
+    cursor: pointer;
+    background-color: white;
+    background-color: rgb(252, 240, 240);3247890
+    border: none;
+    /* color: #ffbc04; */
+    font-size: 15px;
+    padding: 4px 8px;
+    position: relative;
+    bottom: -17px;
+    right: -17rem;
+    font-weight: 600;
+}
+.delete--icon{
+    background-color: white;
+}
+
+.delete--button:hover{
+    color: rgb(141, 3, 3);
+}
+.delete--button:focus{
+    color:purple;
+}

@@ -1,0 +1,87 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* text-align: center; */
+    background-color: rgba(239, 180, 126, 0.932);
+}
+
+.container {
+    color: white;
+    background-color: rgba(241, 241, 241, 0.932);
+    margin: 5vh auto;
+    width: 25em;
+    height: 90vh;
+    border-radius: 28px;
+    box-shadow: 1px 5px 9px rgb(83, 49, 36);
+    padding: 25px 35px;
+    text-align: center;
+}
+
+h1 { 
+    text-align: center;
+    margin: 15px 35px;
+    transform: rotate(4deg);
+    padding: 15px 31px;
+    border-radius: 9px;
+    border-bottom-right-radius: 38px;
+    background-color: rgba(247, 160, 80, 0.932);
+    font-family: 'Courier New', Courier, monospace;
+     letter-spacing: -4px;
+    font-weight: 600;
+    color: rgb(28, 28, 37);
+}
+.form{
+    background-color: rgba(241, 241, 241, 0.932);
+}
+input {
+    font-family: 'Courier New', Courier, monospace;
+    width: 12em;
+    background-color: rgba(242, 237, 233, 0.932);
+    outline: none;
+    color: rgb(28, 26, 26);
+    padding: 8px 15px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    margin: 3rem 0;
+    border: none;
+    cursor: pointer;
+    border-bottom: 3.5px dashed rgb(248, 136, 31);
+}
+button {
+    cursor: pointer;
+    padding: 11px 20px;
+    border: 0 solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgb(23, 27, 32);
+    font-size: 18px;
+    border: 2px solid rgb(59, 59, 59);
+    transition: all .4s;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+button:hover{
+    background-color: rgba(247, 160, 80, 0.932);
+    font-size: 19px;
+    border: none;
+    box-shadow: 1px 5px 8px black;
+}
+.todo-list{
+    margin: 4px 35px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 19px;
+    color: black;
+    /* background-color: white; */
+}
+ li{
+    padding: 3px 1px;
+    background-color: rgba(241, 241, 241, 0.932);
+}
+.task-completed{
+    text-decoration: line-through;
+    color: purple;
+}

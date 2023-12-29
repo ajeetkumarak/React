@@ -1,0 +1,85 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(92, 178, 212);
+}
+
+.container {
+    color: white;
+    margin: 31vh 1px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    color: rgb(25, 25, 158);
+}
+button {
+    cursor: pointer;
+    width: 3rem;
+    margin: 15px;
+    /* padding: 15px; */
+    border: 0 solid white;
+    border-radius: 4px;
+    background-color: wheat;
+    color: rgb(0, 110, 255);
+    font-size: 44px;
+    box-shadow: 1px 5px 9px rgb(53, 48, 36);
+}
+.clock{
+    font-weight: 800;
+    color: white;
+    font-size: 120px;
+    font-family:serif;
+}
+.time{
+    color: wheat;
+    width: 18rem;
+    padding: 5px 15px;
+    background-color: rgb(33, 209, 33);
+}
+/* button:hover {
+    color: wheat;
+    transition: all .51s;
+    background-color: rgb(66, 66, 248);
+} */
+.container{
+text-align: center;
+}
+.submit{
+    color: wheat;
+        width: 20rem;
+     font-size: 20px;
+        padding: 15px 35px;
+        background-color: rgb(33, 209, 33);
+}
+.hidden{
+    animation: all 1s;
+    top: -65px;
+    display: none;
+}
+.submitted{
+    position: absolute;
+    top: 15px;
+    right: 45vw;
+    width: 151px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: rgb(48, 41, 253);
+    color: white;
+    font-size: 20px;
+    box-shadow: 1px 3px 8px rgb(40, 21, 58);
+
+}
+input{
+    color: white;
+     padding: 15px 35px;
+     border-radius: 5px;
+     font-size: 20px;
+    display: block;
+    margin: 15px auto;
+    border: 3px solig green;
+    box-shadow: 3px 6px 9px rgb(35, 45, 35);
+}
